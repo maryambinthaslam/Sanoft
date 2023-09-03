@@ -1,0 +1,555 @@
+body{
+    /* background-image: url('./assets/bg_image.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    /* margin-left: 109px; */
+    /* margin-top: 109px; */
+    font-family: 'Red Hat Display';
+}
+
+#overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#header{
+    margin-left: 109px;
+    margin-right: 109px;
+    margin-top: 59px;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 37.34px;
+    width: 175px;
+}
+
+#queries_icon{
+    width: 43px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+#queries{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#queries_text{
+    color: #ffffff;
+    font-family: 'Red Hat Display';
+}
+
+#home-main-text{
+    font-family: 'Red Hat Display';
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#center-content{
+    width: 1222px;
+    margin-top: 175px;
+    margin-left: 109px;
+    margin-right: 109px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#request-demo{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    display: flex;
+    gap: 15px;
+    color: #51CFF5;
+    align-items: center;
+    /* margin-top: 34px; */
+    margin-top: -15px;
+}
+
+#nav-links{
+    font-size: 14px;
+    font-family: 'Red Hat Display';
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#selected-link{
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+    vertical-align: middle;
+    align-items: baseline;
+}
+
+#social-media{
+    color: #ffffff;
+    margin-left: 127px;
+    /* margin-top: 17px; */
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+}
+
+#social-text{
+    font-family: 'Red Hat Display';
+    color: #bcbcbe;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+}
+
+#social-icons{
+    gap: 38px;
+    display: flex;
+    /* margin-top: 61px; */
+    margin-bottom: 103px;
+}
+
+#social-text-line{
+    height: 50px;
+    width: 2px;
+    border-radius: 3px;
+    background-color: #bcbcbe;
+}
+
+#social-text-and-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+#get-app-content{
+    font-family: 'Red Hat Display';
+    color: #bcbcbe;
+    margin-right: 112px;
+    text-align: right;
+    font-size: 16px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+#get-app-icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 31px;
+}
+
+#about-us-content{
+    margin-left: 109px;
+}
+
+#about-us{
+    color: #51CFF5;
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+}
+
+#about-us-text{
+    color: #ffffff;
+    font-family: 'Red Hat Display';
+    font-size: 35.32px;
+    line-height: 47.3px;
+    height: 132px;
+    width: 866px;
+}
+
+#about-us-para{
+    color: #ffffff;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: 'Red Hat Display';
+}
+
+#about-us-para-image-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin-left: 109px;
+    margin-bottom: 164px;
+}
+
+#title-section-our-features{
+    color: #ffffff;
+    font-family: 'Red Hat Display';
+    margin-left: 109px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#our-features-subtitle{
+    text-align: right;
+    line-height: 28px;
+    color: #bcbcbe;
+    height: 93.7px;
+    margin-right: 109px;
+}
+
+
+#our-features-points{
+    font-family: 'Red Hat Display';
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#our-features-point-1{
+    height: 368px;
+    width: 344px;
+    background-image: url("./assets/point1-bg.png");
+    margin-left: 109px;
+    margin-top: 75px;
+}
+
+#our-features-point-2{
+    height: 332px;
+    width: 344px;
+    background-image: url("./assets/points-bg.png");
+}
+
+#our-features-point-3{
+    height: 332px;
+    width: 344px;
+    background-image: url("./assets/points-bg.png");
+}
+
+
+#our-features-points-number{
+    margin-left: 45px;
+    padding-top: 20px;
+    font-size: 38.08px;
+    color: #bcbcbe;
+    font-weight: 600;
+}
+
+#our-features-points-title{
+    margin-left: 45px;
+    font-size: 25.38px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 33.58px;
+    letter-spacing: 2px;
+    margin-top: -20px;
+}
+
+#our-features-points-description{
+    margin-left: 45px;
+    color: #bcbcbe;
+    font-size: 13.54px;
+    font-weight: 500;
+    line-height: 25.38px;
+}
+
+#our-features-body-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 109px;
+}
+
+#our-features-arrows{
+    margin-top: 45px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 11px;
+}
+
+#product-pricing-title-section{
+    color: #ffffff;
+    font-family: 'Red Hat Display';
+    margin-left: 109px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 109px;
+}
+
+#product-pricing-startforfree-box{
+    background-color: #2B2B31;
+    height: 60px;
+    width: 200px;
+    border-color: #2B2B35;
+    border-radius: 12px;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#product-pricing-title{
+    line-height: 47.3px;
+    letter-spacing: 1px;
+}
+
+#product-pricing-body-section{
+    margin-left: 109px;
+    margin-right: 109px;
+
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    color: #fff;
+    
+}
+
+#grid-item{
+    font-family: 'Red Hat Display';
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+#grid-item-title{
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 29.11px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+}
+
+#grid-item-description{
+    font-size: 13.88px;
+    font-weight: 500;
+    line-height: 26.02px;
+}
+
+#product-pricing-body-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#product-pricing-body-section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 109px;
+    margin-top: 60px;
+}
+
+#product-pricing-body-section-2-contents{
+    font-family: 'Red Hat Display';
+    margin-left: 109px;
+    color: #fff;
+}
+
+#product-pricing-body-section-2-title{
+    font-size: 35.32px;
+    font-weight: 700;
+    line-height: 47.3px;
+}
+
+#product-pricing-body-section-2-description{
+    color: #bcbcbe;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+
+#product-pricing-eazy-cart{
+    background-image: url(./assets/pp-eazy-buy-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 763px;
+    /* width: 1440px; */
+    top: 1515px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    /* gap: 20px; */
+    margin-top: 44px;
+}
+
+#product-pricing-eazy-cart-title{
+    font-family: 'Red Hat Display';
+    color: #fff;
+    font-size: 35.32px;
+    font-weight: 700;
+    line-height: 47.3px;
+}
+
+#product-pricing-eazy-cart-description{
+    font-family: 'Red Hat Display';
+    font-size: 18px;
+    line-height: 28px;
+    color: #bcbcbe;
+}
+
+#contactus-center-left{
+    /* margin-right: 150px; */
+    border-right: solid 1px #bcbcbe;
+    padding-right: 150px;
+}
+
+#contactus-center-left-title-section-heading{
+    font-size: 72.32px;
+    line-height: 47.3px;
+    font-weight: 900;
+}
+
+#contactus-center-left-title-section-subheading{
+    color: #bcbcbe;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#contactus-center-left-links-mail-phone{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+#contactus-center-left-links-phone-numbers{
+    display: flex;
+    flex-direction: row;
+}
+
+#contactus-center-left-links-address{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+#center-content-contactus{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 109px;
+}
+
+#contactus-center-left-social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    margin-top: 60px;
+}
+
+#contactus-center-right{
+    margin-left: 150px;
+    margin-right: 109px;
+    color: #bcbcbe;
+    margin-top: 109px;
+}
+
+#Name{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    height: 50;
+    width: 400;
+}
+
+#Email{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    height: 50;
+    width: 400;
+}
+
+#Message{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    height: 50;
+    width: 400;
+}
+
+/* #contactus-center-right-sentmessage{
+    border-radius: 12px;
+    height: 70px;
+    width: 107px;
+    opacity: 0.5;
+} */
+
+#button-sent-message{
+    border-radius: 12px;
+    height: 70px;
+    width: 400px;
+    opacity: 0.1;
+    color: #fff;
+}
+
+#contactus-center-right-form input{
+    background: transparent;
+    border: none;
+    /* border-bottom: #bcbcbe; */
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+a{
+    text-decoration: none;
+    color: #bcbcbe;
+}
+
+#contactus-footer-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    padding-top: 20px;
+}
+
+#contactus-footer{
+    border-top: solid 1px #bcbcbe;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin-right: 109px; */
+    /* margin-left: 109px; */
+    padding-left: 109px;
+}
+
+#contactus-footer-copyright{
+    margin-right: 109px;
+    color: #bcbcbe;
+    padding-top: 20px;
+}
