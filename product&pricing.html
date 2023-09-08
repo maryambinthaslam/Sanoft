@@ -12,22 +12,24 @@
       href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@900&display=swap"
       rel="stylesheet"
     />
+    <script src="popup.js"></script>
   </head>
   <body background="./assets/product&pricing-bg.png">
+    <div class="container" id="blur">
     <div id="header">
       <div>
-        <img src="./assets/logo.png" />
+        <a href="home.html"><img src="./assets/logo.png" /></a>
       </div>
       <div id="queries">
         <div id="queries_icon">
           <img src="./assets/contact_icon.png" />
         </div>
-        <div id="queries_text">
+        <a href="#"><div id="queries_text">
           <p>
             Have any questions?<br />
             <b>+91 97466 93296</b>
           </p>
-        </div>
+        </div></a>
       </div>
     </div>
     <div id="product-pricing-title-section">
@@ -40,9 +42,10 @@
           </strong>
         </p>
       </div>
-      <div id="product-pricing-startforfree-box">
+      <!-- <div id="product-pricing-startforfree-box">
         <p>START FOR FREE</p>
-      </div>
+      </div> -->
+      <button type="button" id="open-popup" onclick="toggle()">START FOR FREE</button>
     </div>
     <div id="product-pricing-body-section">
       <div id="grid-container">
@@ -149,14 +152,15 @@
         <p style="color: #51cff5">Home</p>
       </div> -->
 
-        <p style="margin-top: 40px; color: #8e8e91">Home</p>
-        <p style="margin-top: 40px; color: #8e8e91">About Us</p>
+      <a href="home.html"><p style="margin-top: 40px; color: #8e8e91">Home</p></a>
+        <a href="aboutus.html"><p style="margin-top: 40px; color: #8e8e91">About Us</p></a>
+        <a href="ourfeatures.html"><p style="margin-top: 40px; color: #8e8e91">Our Features</p></a>
         <div id="selected-link" style="margin-top: 25px">
           <img src="./assets/dot.png" height="5px" width="5px" />
-          <p style="color: #51cff5">Our Features</p>
+          <p style="color: #51cff5">Products & Pricing</p>
         </div>
-        <p style="margin-top: 40px; color: #8e8e91">Products & Pricing</p>
-        <p style="margin-top: 40px; color: #8e8e91">Contact Us</p>
+        <!-- <p style="margin-top: 40px; color: #8e8e91">Products & Pricing</p> -->
+        <a href="contactus.html"><p style="margin-top: 40px; color: #8e8e91">Contact Us</p></a>
       </div>
     </div>
     <div id="product-pricing-body-section-2">
@@ -231,5 +235,66 @@
       </div>
       </div>
     </div>
+</div>
+    <div id="popup">
+      <p id="popup-title">
+        Start for free
+      </p>
+      <p id="popup-subtitle">Initiate your Sanoft POS journey with a free <br>
+        trial now. Empower your business!</p>
+        <form id ="popup-form" action="">
+          <label for="Shop-Name">SHOP NAME</label><br />
+            <input
+              type="text"
+              id="Shop-Name"
+              name="Shop-Name"
+              placeholder="Sanoft Technologies" required
+            /><br />
+            <label for="Popup-Email">YOUR EMAIL</label><br />
+            <input
+              type="email"
+              id="Popup-Email"
+              name="Popup-Email"
+              placeholder="shabirmuhammedp@gmail.com" required
+            /><br />
+            <label for="Mobile">MOBILE</label><br />
+            <input
+              type="tel"
+              id="Mobile"
+              name="Mobile"
+              pattern="[6-9]{1}[0-9]{2}-[0-9]{3}-[0-9]{4}"
+              placeholder="+91 7356005349" required
+            /><br />
+            <label for="Username">USERNAME</label><br />
+            <input
+              type="text"
+              id="Username"
+              name="Username"
+              placeholder="Enter your Username here..." required
+            /><br />
+            <label for="Password">PASSWORD</label><br />
+            <input
+              type="password"
+              id="Password"
+              name="Password"
+              placeholder="Enter your Password here..." required
+            /><br />
+            <button
+            type="submit"
+            id="popup-submit"
+            name="popup-submit"
+          >
+            SUBMIT
+          </button>
+        </form>
+    </div>
+    <!-- <script>
+      function toggle() {
+          var blur=document.getElementById('blur');
+          blur.classList.toggle('active');
+          var popup = document.getElementById('popup');
+          popup.classList.toggle('active');
+      }
+  </script> -->
   </body>
 </html>
